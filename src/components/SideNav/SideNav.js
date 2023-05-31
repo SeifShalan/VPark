@@ -4,7 +4,7 @@ import React from "react";
 
 function SideNav() {
   const [selectedItem, setSelectedItem] = React.useState("Home");
-  console.log(selectedItem);
+
   return (
     <nav className="sidenav">
       {sideNavItems.map((navItem) => (

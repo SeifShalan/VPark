@@ -1,6 +1,6 @@
 .prop-banner {
     height: 215px;
-    margin-top: calc(282px - 215px + 46px);
+    margin-top: calc(282px - 215px + 16px);
     border-radius: 20px;
     position: relative;
     background: #0C1834 url('../../../public/assets/proposition-banner-bg.png') 0% 0% no-repeat padding-box;
