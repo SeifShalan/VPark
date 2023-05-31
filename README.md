@@ -1,3 +1,9 @@
+# Description
+
+This project was created as a homework assignment for an interview at Tahaluf Al Emarat Technical Solutions. Design based on provided Adobe XD mockup (https://xd.adobe.com/view/da510ff5-b853-4a18-82e9-699c3d4378aa-8f02/)
+
+To run this project, run the following commands `npm install | npm run start`. The app should automatically open in your browser.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
