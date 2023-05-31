@@ -10,7 +10,8 @@ function Fleet() {
   const vehicleInfo = React.useCallback(
     (index) => (
       <button
-        className={`fleet-vehicle ${expandedVehicle[index] ? "expanded" : ""}`}
+        className="fleet-vehicle"
+        data-expanded={expandedVehicle[index]}
         onClick={() =>
           setExpandedVehicle((_expandedVehicle) => {
             return { ..._expandedVehicle, [index]: !_expandedVehicle[index] };

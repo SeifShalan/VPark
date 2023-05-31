@@ -57,15 +57,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     position: relative;
     margin-top: 18px;
     cursor: pointer;
-    transition: height 2sec ease-out;
+    transition: height 0.5s ease-out;
 }
 
-.fleet-vehicle.expanded {
+.fleet-vehicle[data-expanded="true"] {
     height: 273px;
+    transition: none;
 }
 
 .fleet-vehicle-icon {
