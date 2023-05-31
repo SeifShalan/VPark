@@ -1,0 +1,13 @@
+.header {
+    height: 67px;
+    margin: 40px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font: normal normal bold 38px/47px Frutiger LT Pro;
+    letter-spacing: 0px;
+    color: #081836;
+}

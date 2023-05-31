@@ -1,0 +1,26 @@
+.sidenav {
+    width: 297px;
+    height: 100%;
+    padding-top: 80px;
+}
+
+.nav-item {
+    height: 70px;
+    padding-left: 28px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 40px auto;
+    color: #6D7485;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.nav-item.active {
+    color: #1785C6;
+}
+
+.nav-item.active img {
+    filter: invert(36%) sepia(93%) saturate(762%) hue-rotate(168deg) brightness(97%) contrast(88%);
+}

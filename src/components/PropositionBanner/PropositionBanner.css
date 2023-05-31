@@ -1,0 +1,55 @@
+.prop-banner {
+    height: 215px;
+    margin-top: calc(282px - 215px + 46px);
+    border-radius: 20px;
+    position: relative;
+    background: #0C1834 url('../../../public/assets/proposition-banner-bg.png') 0% 0% no-repeat padding-box;
+}
+
+.prop-banner-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.prop-banner-header {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0px;
+
+}
+
+.prop-banner-header strong {
+    font-weight:400;
+    color: #F9B419;
+}
+
+.prop-banner-subheader {
+    opacity: 0.7;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 200;
+    margin: 10px 0 0 0;
+}
+
+.prop-banner-top-img {
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    right: 0;
+}
+
+.prop-banner-container {
+    height: 100%;
+    width: 50%;
+    margin-left: 60px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 10;
+
+}
